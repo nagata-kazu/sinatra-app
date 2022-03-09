@@ -1,0 +1,9 @@
+<html lang="ja">
+<body>
+	<ul>
+		<% @mydatabases.each do |mydatabase| %>
+		<li><%= "#{h mydatabase['id']}" %></li>
+		<% end %>
+	</ul>
+</body>
+</html>
